@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem 'github-pages', group: :jekyll_plugins
 # On OS X, you may need to install
 # it manually with --with-iconv-dir:
 #
