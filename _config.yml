@@ -1,6 +1,9 @@
 source: .
 destination: ./_site
+baseurl: /docslate
 plugins_dir:     ./_plugins
+sass:
+  sass_dir: assets/stylesheets/sass
 exclude: [bin, CNAME, Gemfile, Gemfile.lock, README.md, Dockerfile, fig.yml]
 permalink: /:title
 highlighter: rouge
