@@ -4,29 +4,16 @@
     <title>{{page.title}}</title>
     <meta content='width=device-width, initial-scale=1.0' name='viewport' />
     <meta content='' name='description' />
-    <link href="{{'/assets/stylesheets/bootstrap.css'|relative_url}}" media='screen' rel='stylesheet' type='text/css' />
-    <link href="{{'/assets/stylesheets/bootstrap-responsive.css'|relative_url}}" media='screen' rel='stylesheet' type='text/css' />
-    <link href="{{'/assets/stylesheets/bootstrap-docs.css'|relative_url}}" media='screen' rel='stylesheet' type='text/css' />
-    <link href="{{'/assets/stylesheets/pygments.css'|relative_url}}" media='screen' rel='stylesheet' type='text/css' />
-    <link href="{{'/assets/main.css'|relative_url}}" media='screen' rel='stylesheet' type='text/css' />
+    <link href="{{ '/assets/stylesheets/bootstrap.css' | relative_url }}" media='screen' rel='stylesheet' type='text/css' />
+    <link href="{{ '/assets/stylesheets/bootstrap-responsive.css' | relative_url }}" media='screen' rel='stylesheet' type='text/css' />
+    <link href="{{ '/assets/stylesheets/bootstrap-docs.css' | relative_url }}" media='screen' rel='stylesheet' type='text/css' />
+    <link href="{{ '/assets/stylesheets/pygments.css' | relative_url }}" media='screen' rel='stylesheet' type='text/css' />
+    <link href="{{ '/assets/main.css' | relative_url }}" media='screen' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Signika+Negative:300,400,600' rel='stylesheet' type='text/css' />
-    <script src="{{'/assets/javascripts/jquery-1.7.min.js'|relative_url}}" type='text/javascript'></script>
-    <script src="{{'/assets/javascripts/toc.js'|relative_url}}"></script>
+    <script src="{{ '/assets/javascripts/jquery-1.7.min.js' | relative_url }}" type='text/javascript'></script>
+    <script src="{{ '/assets/javascripts/toc.js' | relative_url }}"></script>
     <script src='http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js'></script>
     <meta content='text/html;charset=utf-8' http-equiv='Content-Type' />
-    <script type="text/javascript">
-      if(!(window.location.hostname === "localhost")) {
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-      }
-    </script>
   </head>
   <body style='height: 100%'>
     <div class='navbar navbar-inverse navbar-fixed-top'>
@@ -43,10 +30,10 @@
                 <a href='/'>Home</a>
               </li>
               <li>
-                <a href="/articles/guides.html">All guides</a>
+                <a href="{{ '/articles/guides.html' | relative_url }}">All guides</a>
               </li>
               <li>
-                <a href='/articles/community.html'>Community</a>
+                <a href="{{ '/articles/community.html' | relative_url }}">Community</a>
               </li>
             </ul>
           </div>
